@@ -8,7 +8,7 @@
 
 def make_summoner(sum_name, sum_id)
 	sleep(wait)
-	deeside = Summoner.new(:name sum_name, summonerID: sum_id)
+	deeside = Summoner.new(name: sum_name, summonerID: sum_id)
 	deeside.save
 	deeside.update_stats
 end
