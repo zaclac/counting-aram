@@ -1,0 +1,17 @@
+<h1><%= @summoner.name %></h1>
+	<ul>
+		<% @summoner.champions.each do |champ| %>
+			<% if champ.games > 0 %>
+				<li> <%= champ.name %>
+					<ul> 
+						<li>Percentage Played: <%= champ.games.to_f / @summoner.game_count.to_f * 100 %>%</li>
+						<li>Games: <%= champ.games %></li>
+						<li>Wins: <%= champ.wins %></li>
+						<li>Kills: <%= champ.kills %></li>
+						<li>Deaths: <%= champ.deaths %></li>
+						<li>Assists: <%= champ.assists %></li>
+					</ul>
+			</li>
+			<% end %>
+		<% end %>
+	</ul>

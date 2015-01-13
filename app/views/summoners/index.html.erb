@@ -1,0 +1,7 @@
+<h1>All Summoners</h1>
+
+<ul>
+	<% @summoners.each do |summoner| %>
+		<li><%= link_to summoner.name, summoner %>: <%= summoner.game_count %> games tracked so far.</li>
+	<% end %>
+</ul>

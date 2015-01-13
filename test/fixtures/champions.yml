@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  champID: 1
+  games: 1
+  wins: 1
+  losses: 1
+  kills: 1
+  deaths: 1
+  assists: 1
+  pentakills: 1
+  quadrakills: 1
+  double_kills: 1
+  triple_kills: 1
+  largest_killing_spree: 1
+  killing_sprees: 1
+  summoner_id: 
+
+two:
+  name: MyString
+  champID: 1
+  games: 1
+  wins: 1
+  losses: 1
+  kills: 1
+  deaths: 1
+  assists: 1
+  pentakills: 1
+  quadrakills: 1
+  double_kills: 1
+  triple_kills: 1
+  largest_killing_spree: 1
+  killing_sprees: 1
+  summoner_id: 
