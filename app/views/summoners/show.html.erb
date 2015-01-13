@@ -7,6 +7,8 @@
 						<li>Percentage Played: <%= champ.games.to_f / @summoner.game_count.to_f * 100 %>%</li>
 						<li>Games: <%= champ.games %></li>
 						<li>Wins: <%= champ.wins %></li>
+						<li>Win Percentage: <%= champ.wins.to_f / champ.games.to_f * 100 %>
+							</li>
 						<li>Kills: <%= champ.kills %></li>
 						<li>Deaths: <%= champ.deaths %></li>
 						<li>Assists: <%= champ.assists %></li>
