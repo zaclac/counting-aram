@@ -32,7 +32,7 @@ class Summoner < ActiveRecord::Base
 				stats = {}
 				stats[:invalid] = game["invalid"]
 				stats[:assists] = game["stats"]["assists"] || 0
-				stats[:kills] 	= game["championsKilled"] || 0
+				stats[:kills] 	= game["stats"]["championsKilled"] || 0
 				stats[:deaths] 	= game["stats"]["numDeaths"] || 0
 				stats[:win]			= game["stats"]["win"]
 				stats[:gameMode]= game["gameMode"]

@@ -7,13 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 def make_summoner(sum_name, sum_id)
-	sleep(wait)
+	sleep(3)
 	deeside = Summoner.new(name: sum_name, summonerID: sum_id)
 	deeside.save
 	deeside.update_stats
 end
 
-wait = 3
 
 list = ChampionList.new
 list.save
