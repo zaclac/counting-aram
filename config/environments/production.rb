@@ -77,5 +77,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  congif.dependency_loading = true if $rails_rake_task
+
   LOL_API_KEY = "28a391a6-79f6-4df7-a87b-4ce7d0f8b379"
 end
